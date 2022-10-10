@@ -4,8 +4,10 @@ let sum;
 
 sum = firstCard + secondCard;
 
-let hasBlackJack = false;
-let isAlive = true;
+const newLocal = false;
+let hasBlackJack = newLocal;
+let newLocal_1 = true;
+let isAlive = newLocal_1;
 console.log(sum)
 
 if  (sum <= 20)  {
@@ -16,6 +18,6 @@ if  (sum <= 20)  {
 } else  {
     console.log("You are out of the game! 😭")
     isAlive = false;
-} 
+}
 
 console.log(isAlive)
